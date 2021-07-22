@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GenericModule } from './generic/generic.module';
+import { ProductListModule } from './product-list/product-list.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { GenericModule } from './generic/generic.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GenericModule
+    ProductListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
