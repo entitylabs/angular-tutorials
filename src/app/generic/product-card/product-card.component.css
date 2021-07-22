@@ -1,0 +1,8 @@
+.product-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    width:5rem;
+    height:5rem;
+}
